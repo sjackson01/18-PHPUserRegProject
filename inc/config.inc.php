@@ -44,7 +44,7 @@ function my_error_handler($e_number, $e_message, $e_file, $e_line, $e_vars)
   if (!LIVE) { // Development (print the error). 
 
     // Show the error message: 
-    echo '<div class="error"> . n12br($message)';
+    echo '<div class="error">' . nl2br($message);
 
     // Add the variables and a backtrace:
     echo '<pre>' . print_r($e_vars, 1) . "\n";
