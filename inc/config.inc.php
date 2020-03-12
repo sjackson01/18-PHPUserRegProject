@@ -20,7 +20,7 @@ define('EMAIL', 'Example@example.com');
 define('BASE_URL', 'http://www.example.com');
 
 // Location of the MySQL connection script: 
-define('MYSQL', '/path/to/mysqli_connect');
+define('MYSQL', 'mysqli_connect.php');
 
 // Adjust the time zone for PHP 5.1 and greater: 
 date_default_timezone_set('American/Chicago');
