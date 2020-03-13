@@ -17,7 +17,7 @@ define('LIVE', FALSE);
 define('EMAIL', 'Example@example.com');
 
 // Site URL (base for all redirections):
-define('BASE_URL', 'http://www.example.com');
+define('BASE_URL', 'localhost/index.php');
 
 // Location of the MySQL connection script: 
 define('MYSQL', 'mysqli_connect.php');
