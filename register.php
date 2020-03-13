@@ -108,4 +108,3 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </form>
 
 <?php include('inc/footer.php'); ?>
-}
